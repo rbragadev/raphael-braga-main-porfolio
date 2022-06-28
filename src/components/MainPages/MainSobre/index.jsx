@@ -54,7 +54,7 @@ export const MainSobre = () => {
             encontrar minhas experiências e formações profissionais.
           </p>
 
-          <a href="https://drive.google.com/file/d/16gRcMybySCdLD8nV9BS_O_LKlkSQWDEj/view?usp=sharing" target='_blank'>
+          <a href="https://drive.google.com/file/d/1kir4gEM9fW3nCvowiXulNiWJ6qk4uOjW/view?usp=sharing" target='_blank'>
             <PrimaryButton>Currículo completo</PrimaryButton>
           </a>
         </TextAndButton>
