@@ -1,6 +1,7 @@
 import pokedexProjectImage from "../../../assets/images/mercado-local.png";
 import portfolioProjectImage from "../../../assets/images/town-crypto.png";
 import pesquisaGitHubProjectImage from "../../../assets/images/3bcode.png";
+import marketNFTImage from "../../../assets/images/market-nft.png";
 
 export const projectsData = [
   {
@@ -52,6 +53,21 @@ export const projectsData = [
       {
         name: "gitHub",
         link: "https://www.3bcode.com/",
+      },
+    ],
+  },
+  {
+    title: "NFT Market - MarketPlace NFT",
+    image: marketNFTImage,
+    technologies: ["Html", "Css", "JavaScript" , "Solidity" ,"ReactJS", "NodeJs"],
+    links: [
+      {
+        name: "Página",
+        link: "https://marketplace-nft-mint-functions.vercel.app/",
+      },
+      {
+        name: "gitHub",
+        link: "https://marketplace-nft-mint-functions.vercel.app/",
       },
     ],
   },
