@@ -1,86 +1,101 @@
-import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
-import { DiJavascript1 } from "react-icons/di";
+import { FaCss3Alt, FaReact, FaNodeJs, FaEthereum } from 'react-icons/fa';
+import { DiJavascript1 } from 'react-icons/di';
 
 //=====Start Primary Hard Skills=====
 export const primaryHardSkillsData = [
   {
-    icon: <FaHtml5 />,
-    name: "HTML",
-  },
-  {
-    icon: <FaCss3Alt />,
-    name: "CSS",
-  },
-  {
     icon: <DiJavascript1 />,
-    name: "JavaScript",
+    name: 'JavaScript',
+  },
+  {
+    icon: <FaNodeJs />,
+    name: 'Node.Js',
   },
   {
     icon: <FaReact />,
-    name: "React JS",
+    name: 'React JS',
+  },
+  {
+    icon: <FaEthereum />,
+    name: 'Solidity',
   },
 ];
 
 //=====Start Secondary Hard Skills=====
 export const secondaryHardSkillsData = [
   {
-    name: "Styled Components",
+    name: 'Nest.JS',
   },
   {
-    name: "Git",
+    name: 'Typescript',
   },
   {
-    name: "GitHub",
+    name: 'React Native',
   },
   {
-    name: "Solidity",
+    name: 'AWS',
   },
   {
-    name: "Typescript",
+    name: 'GCP',
   },
   {
-    name: "NodeJs",
+    name: 'Docker',
   },
   {
-    name: "Angular",
+    name: 'Angular',
   },
   {
-    name: "C#",
+    name: 'Firebase',
   },
   {
-    name: "Bootstrap",
+    name: 'SQL',
   },
   {
-    name: "TailwindCSS",
+    name: 'Postgres',
   },
   {
-    name: "Illustrator",
-  },
-
-  {
-    name: "Indesign",
+    name: 'Hyperledger',
   },
 
   {
-    name: "Photoshop",
+    name: 'Next.js',
+  },
+
+  {
+    name: 'Tailwind',
   },
 ];
 
 //=====Start Soft Skills=====
 export const softSkillsData = [
   {
-    name: "Resiliência, tolerância e flexibilidade",
+    name: 'Leadership and Team Management',
     description:
-      "Aprendi a importância e pude desenvolver essas habilidades atuando em instituições públicas, interagindo e trabalhando com os mais variados perfis de pessoas.",
+      'Demonstrated through leading development teams and guiding projects from conception to deployment, fostering collaborative environments and driving innovative solutions.',
   },
   {
-    name: "Inteligência emocional",
+    name: 'Strategic Problem-Solving',
     description:
-      "Procuro desenvolver essa habilidade através de leitura, cursos e eventos sobre o tema, por perceber que é uma skill que traz uma maior qualidade de vida para mim, e, por consequência, para as   pessoas ao meu redor.",
+      'Proven ability to tackle complex challenges with strategic solutions, optimizing operations and enhancing product functionalities through innovative technical implementations.',
   },
   {
-    name: "Aprendizado ativo",
+    name: 'Continuous Learning and Adaptability',
     description:
-      "Essa é uma habilidade pela qual tenho me dedicado cada vez mais, tanto para me manter atualizado, frente às rápidas mudanças do mundo, quanto para me manter motivado na busca de evolução pessoal e profissional.",
+      'Committed to staying at the forefront of technology through continuous learning, adapting swiftly to new tools and methodologies to drive personal and professional growth.',
+  },
+  {
+    name: 'Innovative Thinking',
+    description:
+      'Proven track record of leveraging cutting-edge technologies to develop novel solutions, driving efficiency and user engagement.',
+  },
+  {
+    name: 'Effective Communication',
+    description:
+      'Skilled in articulating complex technical concepts to non-technical stakeholders, ensuring alignment and understanding across diverse teams.',
+  },
+  {
+    name: 'Customer-Centric Approach',
+    description:
+      'Dedicated to understanding and meeting customer needs, contributing to the creation of user-friendly and impactful products.',
   },
 ];

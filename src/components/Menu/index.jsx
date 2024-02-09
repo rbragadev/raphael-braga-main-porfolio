@@ -19,19 +19,19 @@ export const Menu = () => {
       <Nav responsiveMenuIsSelected={responsiveMenuIsSelected}>
         <ul>
           <li>
-            <NavLink to="/">Início</NavLink>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/sobre">Sobre</NavLink>
+            <NavLink to="/sobre">About</NavLink>
           </li>
           <li>
             <NavLink to="/skills">Skills</NavLink>
           </li>
           <li>
-            <NavLink to="/projetos">Projetos</NavLink>
+            <NavLink to="/projetos">Projects</NavLink>
           </li>
           <li>
-            <NavLink to="/contato">Contato</NavLink>
+            <NavLink to="/contato">Contact</NavLink>
           </li>
         </ul>
       </Nav>

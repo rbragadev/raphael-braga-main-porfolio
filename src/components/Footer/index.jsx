@@ -1,10 +1,10 @@
-import { Container } from "./styles";
+import { Container } from './styles';
 
 export const Footer = () => {
   return (
     <Container>
       <p>
-        Desenvolvido por 👉{" "}
+        Developed by 👉{' '}
         <a href="https://www.linkedin.com/in/rbragadev/" target="_blank">
           Raphael Braga
         </a>

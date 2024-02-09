@@ -4,11 +4,11 @@ import {
   ImageAndLinks,
   HelloMessage,
   TextAndButton,
-} from "./styles";
-import { ProfileImage } from "../../profileData/ProfileImage";
-import { SocialLinks } from "../../linksIcons/SocialLinks";
-import { PrimaryButton } from "../../buttons/PrimaryButton";
-import { Link } from "react-router-dom";
+} from './styles';
+import { ProfileImage } from '../../profileData/ProfileImage';
+import { SocialLinks } from '../../linksIcons/SocialLinks';
+import { PrimaryButton } from '../../buttons/PrimaryButton';
+import { Link } from 'react-router-dom';
 
 export const MainSobre = () => {
   return (
@@ -20,7 +20,7 @@ export const MainSobre = () => {
           transition={{ duration: 0.7 }}
         >
           <ProfileImage />
-          <SocialLinks size={"1.5rem"} />
+          <SocialLinks size={'1.5rem'} />
         </ImageAndLinks>
 
         <HelloMessage
@@ -28,7 +28,7 @@ export const MainSobre = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.7, delay: 0.3 }}
         >
-          <h3>Olá :)</h3>
+          <h3>Hi :)</h3>
           <p></p>
         </HelloMessage>
 
@@ -38,24 +38,27 @@ export const MainSobre = () => {
           transition={{ duration: 0.7, delay: 0.4 }}
         >
           <p>
-            Bem-vindo(a) ao meu portfólio. Esse espaço tem o propósito de reunir
-            os últimos projetos que desenvolvi, bem como algumas informações
-            sobre mim.
+            Welcome to my portfolio, a curated space where I showcase my most
+            recent work and share insights about my journey in technology.
             <br />
             <br />
-            Tenho Experiência de 8 anos com {" "}
-            <strong>Desenvolvimento FrontEnd</strong>. Venho
-            continuamente me capacitando e aplicando os conhecimentos adquiridos
-            em projetos pessoais e profissionais, utilizando as principais
-            tecnologias e ferramentas da área (vide Skills).
+            With over a decade of experience, I specialize in FullStack and
+            Blockchain Development, continually honing my skills and applying
+            them to innovate in both personal and professional projects. My
+            expertise spans across a broad range of modern technologies and
+            tools, which are detailed further in my skills section.
             <br />
             <br />
-            Disponibilizo no botão abaixo o meu currículo completo, onde pode
-            encontrar minhas experiências e formações profissionais.
+            For a comprehensive view of my professional background and academic
+            achievements, please feel free to download my complete resume
+            available via the link below.
           </p>
 
-          <a href="https://drive.google.com/file/d/1kir4gEM9fW3nCvowiXulNiWJ6qk4uOjW/view?usp=sharing" target='_blank'>
-            <PrimaryButton>Currículo completo</PrimaryButton>
+          <a
+            href="https://drive.google.com/file/d/1_oNGlZRi2UytLv8_6-ILydH43h-2lZ9u/view?usp=sharing"
+            target="_blank"
+          >
+            <PrimaryButton>Resume</PrimaryButton>
           </a>
         </TextAndButton>
       </ContainerData>
